@@ -1,0 +1,6 @@
+framework module Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests {
+  umbrella header "Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

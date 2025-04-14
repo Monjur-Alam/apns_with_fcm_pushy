@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests : NSObject
+@end
+@implementation PodsDummy_Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests
+@end

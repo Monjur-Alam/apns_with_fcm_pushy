@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		292CC88151175B4F025A338F /* Pods_apns_with_fcm_pushyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2442FDFDB2154D1EAB429FD /* Pods_apns_with_fcm_pushyTests.framework */; };
+		77C7D80A5586EE97E16E516C /* Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550D6AAF8E2C9FF37B32122C /* Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests.framework */; };
+		F33F4242634CA1A65F7F696D /* Pods_apns_with_fcm_pushy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65022235A28AA9FEFE051F7 /* Pods_apns_with_fcm_pushy.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		84BD774A2DACC60C0076E97A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E36CB51F4F4BD9EBAE9951 /* Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.release.xcconfig"; path = "Target Support Files/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2699EB7FC2F762CFF6A74C01 /* Pods-apns_with_fcm_pushyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apns_with_fcm_pushyTests.debug.xcconfig"; path = "Target Support Files/Pods-apns_with_fcm_pushyTests/Pods-apns_with_fcm_pushyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		409FE57AA59D0343AB23061E /* Pods-apns_with_fcm_pushy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apns_with_fcm_pushy.debug.xcconfig"; path = "Target Support Files/Pods-apns_with_fcm_pushy/Pods-apns_with_fcm_pushy.debug.xcconfig"; sourceTree = "<group>"; };
+		550D6AAF8E2C9FF37B32122C /* Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AF56E1B9D85E2F581CB9B1 /* Pods-apns_with_fcm_pushy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apns_with_fcm_pushy.release.xcconfig"; path = "Target Support Files/Pods-apns_with_fcm_pushy/Pods-apns_with_fcm_pushy.release.xcconfig"; sourceTree = "<group>"; };
 		84BD77332DACC60A0076E97A /* apns_with_fcm_pushy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apns_with_fcm_pushy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BD77492DACC60C0076E97A /* apns_with_fcm_pushyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apns_with_fcm_pushyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BD77532DACC60C0076E97A /* apns_with_fcm_pushyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apns_with_fcm_pushyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD28C7BBD6562913A5F40E48 /* Pods-apns_with_fcm_pushyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apns_with_fcm_pushyTests.release.xcconfig"; path = "Target Support Files/Pods-apns_with_fcm_pushyTests/Pods-apns_with_fcm_pushyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2442FDFDB2154D1EAB429FD /* Pods_apns_with_fcm_pushyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apns_with_fcm_pushyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10D42CC3EAC41C2A3555ECA /* Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.debug.xcconfig"; path = "Target Support Files/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D65022235A28AA9FEFE051F7 /* Pods_apns_with_fcm_pushy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apns_with_fcm_pushy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,11 +65,15 @@
 		};
 		84BD774C2DACC60C0076E97A /* apns_with_fcm_pushyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = apns_with_fcm_pushyTests;
 			sourceTree = "<group>";
 		};
 		84BD77562DACC60C0076E97A /* apns_with_fcm_pushyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = apns_with_fcm_pushyUITests;
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F33F4242634CA1A65F7F696D /* Pods_apns_with_fcm_pushy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292CC88151175B4F025A338F /* Pods_apns_with_fcm_pushyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C7D80A5586EE97E16E516C /* Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +114,8 @@
 				84BD774C2DACC60C0076E97A /* apns_with_fcm_pushyTests */,
 				84BD77562DACC60C0076E97A /* apns_with_fcm_pushyUITests */,
 				84BD77342DACC60A0076E97A /* Products */,
+				A3480E727F51A323D3B05FD9 /* Pods */,
+				EABFECBE7160EFCA9F763CE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +129,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A3480E727F51A323D3B05FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409FE57AA59D0343AB23061E /* Pods-apns_with_fcm_pushy.debug.xcconfig */,
+				64AF56E1B9D85E2F581CB9B1 /* Pods-apns_with_fcm_pushy.release.xcconfig */,
+				D10D42CC3EAC41C2A3555ECA /* Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.debug.xcconfig */,
+				18E36CB51F4F4BD9EBAE9951 /* Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.release.xcconfig */,
+				2699EB7FC2F762CFF6A74C01 /* Pods-apns_with_fcm_pushyTests.debug.xcconfig */,
+				AD28C7BBD6562913A5F40E48 /* Pods-apns_with_fcm_pushyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EABFECBE7160EFCA9F763CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D65022235A28AA9FEFE051F7 /* Pods_apns_with_fcm_pushy.framework */,
+				550D6AAF8E2C9FF37B32122C /* Pods_apns_with_fcm_pushy_apns_with_fcm_pushyUITests.framework */,
+				B2442FDFDB2154D1EAB429FD /* Pods_apns_with_fcm_pushyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84BD775C2DACC60C0076E97A /* Build configuration list for PBXNativeTarget "apns_with_fcm_pushy" */;
 			buildPhases = (
+				23A4310119E6EC26EB399C8A /* [CP] Check Pods Manifest.lock */,
 				84BD772F2DACC60A0076E97A /* Sources */,
 				84BD77302DACC60A0076E97A /* Frameworks */,
 				84BD77312DACC60A0076E97A /* Resources */,
+				2E74950152731B8DCF355DA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +174,6 @@
 				84BD77352DACC60A0076E97A /* apns_with_fcm_pushy */,
 			);
 			name = apns_with_fcm_pushy;
-			packageProductDependencies = (
-			);
 			productName = apns_with_fcm_pushy;
 			productReference = 84BD77332DACC60A0076E97A /* apns_with_fcm_pushy.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84BD77612DACC60C0076E97A /* Build configuration list for PBXNativeTarget "apns_with_fcm_pushyTests" */;
 			buildPhases = (
+				FDA454D97EB12049ED8D7698 /* [CP] Check Pods Manifest.lock */,
 				84BD77452DACC60C0076E97A /* Sources */,
 				84BD77462DACC60C0076E97A /* Frameworks */,
 				84BD77472DACC60C0076E97A /* Resources */,
@@ -147,8 +196,6 @@
 				84BD774C2DACC60C0076E97A /* apns_with_fcm_pushyTests */,
 			);
 			name = apns_with_fcm_pushyTests;
-			packageProductDependencies = (
-			);
 			productName = apns_with_fcm_pushyTests;
 			productReference = 84BD77492DACC60C0076E97A /* apns_with_fcm_pushyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84BD77642DACC60C0076E97A /* Build configuration list for PBXNativeTarget "apns_with_fcm_pushyUITests" */;
 			buildPhases = (
+				FD9AF2B8F093B82E16536CCC /* [CP] Check Pods Manifest.lock */,
 				84BD774F2DACC60C0076E97A /* Sources */,
 				84BD77502DACC60C0076E97A /* Frameworks */,
 				84BD77512DACC60C0076E97A /* Resources */,
+				20F07648C2ADE48087BFDB78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +219,6 @@
 				84BD77562DACC60C0076E97A /* apns_with_fcm_pushyUITests */,
 			);
 			name = apns_with_fcm_pushyUITests;
-			packageProductDependencies = (
-			);
 			productName = apns_with_fcm_pushyUITests;
 			productReference = 84BD77532DACC60C0076E97A /* apns_with_fcm_pushyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +291,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20F07648C2ADE48087BFDB78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23A4310119E6EC26EB399C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apns_with_fcm_pushy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E74950152731B8DCF355DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apns_with_fcm_pushy/Pods-apns_with_fcm_pushy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apns_with_fcm_pushy/Pods-apns_with_fcm_pushy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apns_with_fcm_pushy/Pods-apns_with_fcm_pushy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9AF2B8F093B82E16536CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA454D97EB12049ED8D7698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apns_with_fcm_pushyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84BD772F2DACC60A0076E97A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +434,7 @@
 /* Begin XCBuildConfiguration section */
 		84BD775D2DACC60C0076E97A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409FE57AA59D0343AB23061E /* Pods-apns_with_fcm_pushy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +463,7 @@
 		};
 		84BD775E2DACC60C0076E97A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AF56E1B9D85E2F581CB9B1 /* Pods-apns_with_fcm_pushy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +613,7 @@
 		};
 		84BD77622DACC60C0076E97A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2699EB7FC2F762CFF6A74C01 /* Pods-apns_with_fcm_pushyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +633,7 @@
 		};
 		84BD77632DACC60C0076E97A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD28C7BBD6562913A5F40E48 /* Pods-apns_with_fcm_pushyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +653,7 @@
 		};
 		84BD77652DACC60C0076E97A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10D42CC3EAC41C2A3555ECA /* Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -516,6 +671,7 @@
 		};
 		84BD77662DACC60C0076E97A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E36CB51F4F4BD9EBAE9951 /* Pods-apns_with_fcm_pushy-apns_with_fcm_pushyUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
