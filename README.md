@@ -71,19 +71,49 @@ This guide walks you through integrating **Apple Push Notification service (APNs
 3. Configure Firebase in `AppDelegate.swift`:
 
 ```swift
+import FirebaseMessaging
 import Firebase
-import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        // [START set_messaging_delegate]
+        // This sets AppDelegate as the delegate for Messaging.
+        Messaging.messaging().delegate = self
+        Messaging.messaging().isAutoInitEnabled = true
         return true
     }
 
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Messaging.messaging().apnsToken = deviceToken
     }
+}
+
+// [END ios_10_message_handling]
+extension AppDelegate: MessagingDelegate {
+    // [START refresh_token]
+    // 'Messaging' is Firebase’s class that manages everything related to push notifications.
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+        Messaging.messaging().token { token, error in
+            if let error = error {
+                print("Error fetching FCM registration token: \(error)")
+            } else if let token = token {
+                print("FCM registration token: \(token)")
+            }
+        }
+        
+        let dataDict: [String: String] = ["token": fcmToken ?? ""]
+        NotificationCenter.default.post(
+            name: Notification.Name("FCMToken"),
+            object: nil,
+            userInfo: dataDict
+        )
+        // TODO: If necessary, send token to application server.
+        // Note: This callback is fired at each app startup and whenever a new token is generated.
+    }
+    
+    // [END refresh_token]
 }
 ```
 4. Request notification permissions:
